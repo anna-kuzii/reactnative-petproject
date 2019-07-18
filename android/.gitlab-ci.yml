@@ -1,0 +1,8 @@
+test:
+  image: node:8.11.1
+  stage: test
+  script:
+    - yarn
+    - yarn install
+    - npm run lint
+    - npm run flow

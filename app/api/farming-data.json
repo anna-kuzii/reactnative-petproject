@@ -1,0 +1,32 @@
+{
+  "moistureLevel": [
+    {
+      "level": 6,
+      "description": "Very Wet"
+    },
+    {
+      "level": 5,
+      "description": "Wet"
+    },
+    {
+      "level": 4,
+      "description": "Marginally Wet"
+    },
+    {
+      "level": 3,
+      "description": "Marginally Dry"
+    },
+    {
+      "level": 2,
+      "description": "Dry"
+    },
+    {
+      "level": 1,
+      "description": "Very Dry"
+    },
+    {
+      "level": 0,
+      "description": "Out Of Growing Season"
+    }
+    ]
+}

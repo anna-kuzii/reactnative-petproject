@@ -1,0 +1,59 @@
+{
+  "name": "Weather",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --port=8088",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --port 8088",
+    "test": "jest",
+    "postinstall": "react-native link",
+    "lint": "eslint *.js app",
+    "prettier": "prettier app/**/*.js .*.js",
+    "prettier-check": "prettier *.js .*.js --list-different",
+    "prettier-write": "prettier ./{app/**,app}/**/*.js --write",
+    "flow": "flow",
+    "flow-stop": "flow stop"
+  },
+  "dependencies": {
+    "prop-types": "15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
+    "react-native-calendars": "1.20.0",
+    "react-native-circular-progress": "1.0.1",
+    "react-native-google-places-autocomplete": "^1.3.9",
+    "react-native-share": "1.1.2",
+    "react-native-svg": "7.0.2",
+    "react-native-vector-icons": "5.0.0",
+    "react-navigation": "2.0.1",
+    "react-navigation-material-bottom-tabs": "0.1.2",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-saga": "0.16.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "babel-jest": "23.4.2",
+    "babel-preset-flow": "6.23.0",
+    "babel-preset-react-native": "4.0.1",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-flowtype": "2.50.0",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-react-native": "latest",
+    "flow-bin": "0.75.0",
+    "husky": "1.0.0-rc.14",
+    "jest": "23.5.0",
+    "prettier": "1.14.2",
+    "react-test-renderer": "16.4.1",
+    "remote-redux-devtools": "^0.5.13"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts/"
+    ]
+  }
+}
